@@ -15,7 +15,7 @@ Currently available artifacts:
 ```groovy
 dependencies {
     compile 'com.facebook:facebook-android-sdk:3.5.2@aar'
-    compile("com.actionbarsherlock:viewpagerindicator:2.4.1@aar")
+    compile 'com.actionbarsherlock:viewpagerindicator:2.4.1@aar'
 }
 ```
 
