@@ -129,7 +129,6 @@ header h1 {
 }
 
 .proj {
-	width: 33,3333%;
 	padding-top: 20px;
 	float: left;
 	margin-right: 22px;
@@ -137,9 +136,9 @@ header h1 {
 
 .proj_pict {
 	border: 4px solid #fff;
-	width: 297px;
-	max-width: 297px;
-	height: 242px;
+	width: 458px;
+	max-width: 458px;
+	height: 311px;
 	position: relative;
 }
 
@@ -148,8 +147,8 @@ header h1 {
 .proj_pict p{
 	position: absolute;
 	bottom: 0;
-	background-color: #7e7e7e;
-	opacity: 0.5; 
+	background-color: #4e4e4e;
+	opacity: 0.6; 
     filter: alpha(Opacity=70); 
     color: #fff;
     width: 100%;
