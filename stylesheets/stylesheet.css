@@ -118,7 +118,7 @@ header h1 {
 
 #main_content {
   width: 100%;
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;*/
   text-align: center;
   padding: 60px 0;
 }
@@ -148,11 +148,11 @@ header h1 {
 	position: absolute;
 	bottom: 0;
 	background-color: #4e4e4e;
-	opacity: 0.6; 
-    filter: alpha(Opacity=70); 
+	opacity: 0.7; 
+    filter: alpha(Opacity=75); 
     color: #fff;
-    width: 100%;
-    padding: 10px 0;
+    width: 428px;
+    padding: 10px 15px;
 }
 
 .proj:last-child {
@@ -203,18 +203,28 @@ dt {
   font-weight: bold;
 }
 
-ul li {
-  list-style: none;
+ul {
+	padding-left: 20px;
 }
 
+
+ul li {
+
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+}
+
+/*
 ul li:before {
   content: ">>";
-  font-size: 13px;
-  color: #b5e853;
-  margin-left: -37px;
-  margin-right: 21px;
-  line-height: 16px;
-}
+  font-size: 15px;
+  color: #3d5e74;
+  margin-left: -1px;
+  margin-right: 11px;
+  line-height: 30px;
+}*/
 
 blockquote {
   color: #aaa;
@@ -258,6 +268,9 @@ hr {
   color: #b5e853;
 }
 
+.proj_list {
+	text-align: left;
+}
 
 /* ############### Footer 
 */
